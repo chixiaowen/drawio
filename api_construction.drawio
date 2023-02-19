@@ -1,1 +1,130 @@
-<mxfile host="app.diagrams.net" modified="2023-02-19T08:25:01.322Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.20" etag="lPJyHR7dB-SepO1GNUkp" type="github"><diagram name="第 1 页" id="30YcCnIKD1mrAuksQCPE">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-19T09:12:17.897Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="PWcxkI7Zwm-FXqY9K0Am" version="20.8.20" type="github">
+  <diagram name="第 1 页" id="30YcCnIKD1mrAuksQCPE">
+    <mxGraphModel dx="926" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5dHh55-lNtWIpr4j0pjC-1" value="web application" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="120" y="160" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="5dHh55-lNtWIpr4j0pjC-2" value="构造 api" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="447" y="160" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="5dHh55-lNtWIpr4j0pjC-4" value="区块链节点" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="679" y="160" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="5dHh55-lNtWIpr4j0pjC-6" value="derive address from public key(ex. /construction/derive)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="5dHh55-lNtWIpr4j0pjC-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="170" y="220" as="sourcePoint" />
+            <mxPoint x="250" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5dHh55-lNtWIpr4j0pjC-7" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0.5;exitY=0.333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="497" y="233.89999999999998" as="sourcePoint" />
+            <mxPoint x="169.5" y="234" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5dHh55-lNtWIpr4j0pjC-8" value="create metadata request(ex. /construction/preprocess)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="171" y="253" as="sourcePoint" />
+            <mxPoint x="498" y="253" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5dHh55-lNtWIpr4j0pjC-9" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0.5;exitY=0.333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="498" y="266.9" as="sourcePoint" />
+            <mxPoint x="170.5" y="267" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5dHh55-lNtWIpr4j0pjC-10" value="fetch online metadata(ex. /construction/metadata)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;entryX=0.52;entryY=0.313;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="5dHh55-lNtWIpr4j0pjC-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="171" y="287" as="sourcePoint" />
+            <mxPoint x="498" y="287" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5dHh55-lNtWIpr4j0pjC-11" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0.5;exitY=0.333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="5dHh55-lNtWIpr4j0pjC-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730.25" y="300.9" as="sourcePoint" />
+            <mxPoint x="239" y="301" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="799.5" y="301" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5dHh55-lNtWIpr4j0pjC-12" value="contract payloads to sign(ex. /construction/payloads)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="5dHh55-lNtWIpr4j0pjC-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="170" y="323" as="sourcePoint" />
+            <mxPoint x="497" y="323" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5dHh55-lNtWIpr4j0pjC-13" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0.5;exitY=0.333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="5dHh55-lNtWIpr4j0pjC-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="727.5" y="336.9" as="sourcePoint" />
+            <mxPoint x="400" y="337" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5dHh55-lNtWIpr4j0pjC-14" value="parse unsigned transaction(ex. /construction/parse)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="5dHh55-lNtWIpr4j0pjC-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="171" y="360" as="sourcePoint" />
+            <mxPoint x="498" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5dHh55-lNtWIpr4j0pjC-15" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0.5;exitY=0.333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="5dHh55-lNtWIpr4j0pjC-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="727.5" y="371.9" as="sourcePoint" />
+            <mxPoint x="400" y="372" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5dHh55-lNtWIpr4j0pjC-16" value="sign payloads(ex. /construction/combine)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="5dHh55-lNtWIpr4j0pjC-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="170" y="392" as="sourcePoint" />
+            <mxPoint x="497" y="392" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5dHh55-lNtWIpr4j0pjC-17" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0.5;exitY=0.333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="5dHh55-lNtWIpr4j0pjC-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="727.5" y="403.9" as="sourcePoint" />
+            <mxPoint x="400" y="404" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5dHh55-lNtWIpr4j0pjC-18" value="parse signed transaction(ex. /construction/parse)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="5dHh55-lNtWIpr4j0pjC-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="171" y="424" as="sourcePoint" />
+            <mxPoint x="498" y="424" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5dHh55-lNtWIpr4j0pjC-19" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0.5;exitY=0.333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="5dHh55-lNtWIpr4j0pjC-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="727.5" y="437.9" as="sourcePoint" />
+            <mxPoint x="400" y="438" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5dHh55-lNtWIpr4j0pjC-20" value="get hash of signed transaction(ex. /construction/hash)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="5dHh55-lNtWIpr4j0pjC-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="172" y="458" as="sourcePoint" />
+            <mxPoint x="499" y="458" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5dHh55-lNtWIpr4j0pjC-21" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0.5;exitY=0.333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="5dHh55-lNtWIpr4j0pjC-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="727.5" y="471.9" as="sourcePoint" />
+            <mxPoint x="400" y="472" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5dHh55-lNtWIpr4j0pjC-22" value="submit transaction(ex. /construction/derive)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="5dHh55-lNtWIpr4j0pjC-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="170.5" y="497" as="sourcePoint" />
+            <mxPoint x="497.5" y="497" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5dHh55-lNtWIpr4j0pjC-23" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0.5;exitY=0.333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="5dHh55-lNtWIpr4j0pjC-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="727.5" y="510.9" as="sourcePoint" />
+            <mxPoint x="400" y="511" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
