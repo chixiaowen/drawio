@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-19T09:32:42.111Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="8XsSaULh8mh573R2_3u4" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-20T02:51:37.965Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="hmx1Dfn-wsLABeS9-wY4" version="20.8.20" type="github">
   <diagram name="第 1 页" id="nwG1dL-r1VlCJuWAogie">
-    <mxGraphModel dx="926" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="926" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,8 +23,8 @@
             <mxPoint x="341" y="248" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Mzg6tb_b1ckmvfPqNj1M-7" value="get networks options(ex. /network/options)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;entryX=0.5;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
-          <mxGeometry width="80" relative="1" as="geometry">
+        <mxCell id="Mzg6tb_b1ckmvfPqNj1M-7" value="get networks options(ex. /network/status)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;entryX=0.5;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.003" width="80" relative="1" as="geometry">
             <mxPoint x="171" y="279" as="sourcePoint" />
             <mxPoint x="404" y="278.9000000000001" as="targetPoint" />
             <mxPoint as="offset" />
