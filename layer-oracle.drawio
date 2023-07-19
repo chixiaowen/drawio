@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-19T03:22:40.490Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Rekmy5Kz9NxTyvWZILqG" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-19T03:54:11.812Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="pTJ9LBZYtUEb97XZw00Q" version="21.6.2" type="github">
   <diagram name="第 1 页" id="OaAXD1NmUu3i7Wb7ZRrW">
     <mxGraphModel dx="1539" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -63,11 +63,47 @@
         <mxCell id="D0v67CeB8sk4uImpkKm--23" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;" vertex="1" parent="1">
           <mxGeometry x="114" y="1900" width="166" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="D0v67CeB8sk4uImpkKm--24" value="raler-contract" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="D0v67CeB8sk4uImpkKm--24" value="relayer" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="167" y="1910" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="D0v67CeB8sk4uImpkKm--25" value="ILayerZeroRelayerV2&lt;br&gt;1.&amp;nbsp;assignJob&lt;br&gt;2.&amp;nbsp;getFee&lt;br&gt;3.&amp;nbsp;withdrawFee" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="140" y="1955" width="126" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="D0v67CeB8sk4uImpkKm--26" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1880" width="420" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="D0v67CeB8sk4uImpkKm--27" value="endpoint" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="603" y="1884" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D0v67CeB8sk4uImpkKm--28" value="EndpointContract" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="577" y="1910" width="126" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D0v67CeB8sk4uImpkKm--35" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;Ownable&lt;/div&gt;1.&amp;nbsp;owner()&lt;br&gt;2.&amp;nbsp;transferOwnership&lt;br&gt;3.&amp;nbsp;renounceOwnership&lt;br&gt;4.&amp;nbsp;event OwnershipTransferred" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="470" y="2030" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="D0v67CeB8sk4uImpkKm--36" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="D0v67CeB8sk4uImpkKm--28" target="D0v67CeB8sk4uImpkKm--35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="2030" as="sourcePoint" />
+            <mxPoint x="610" y="1980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D0v67CeB8sk4uImpkKm--37" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;ILayerZeroEndpoint&lt;/div&gt;&lt;/div&gt;1.&amp;nbsp;send&lt;span style=&quot;background-color: initial;&quot;&gt;()&lt;/span&gt;&lt;br&gt;2.&amp;nbsp;receivePayload&lt;br&gt;3.&amp;nbsp;getInboundNonce&lt;br&gt;4.&amp;nbsp;getOutboundNonce&lt;br&gt;5.&amp;nbsp;estimateFees&lt;br&gt;6.&amp;nbsp;getChainId&lt;br&gt;7.&amp;nbsp;retryPayload&lt;br&gt;8.&amp;nbsp;hasStoredPayload&lt;br&gt;9.&amp;nbsp;getSendLibraryAddress&lt;br&gt;10.&amp;nbsp;getReceiveLibraryAddress&lt;br&gt;11.&amp;nbsp;isSendingPayload&lt;br&gt;12.&amp;nbsp;isReceivingPayload&lt;br&gt;13.&amp;nbsp;getConfig&lt;br&gt;14.&amp;nbsp;getSendVersion&lt;br&gt;15.&amp;nbsp;getReceiveVersion" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="690" y="2030" width="180" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="D0v67CeB8sk4uImpkKm--38" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="D0v67CeB8sk4uImpkKm--28" target="D0v67CeB8sk4uImpkKm--37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="2000" as="sourcePoint" />
+            <mxPoint x="570" y="2040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D0v67CeB8sk4uImpkKm--39" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;ILayerZeroUserApplicationConfig&lt;/div&gt;&lt;/div&gt;1.&amp;nbsp;setConfig&lt;br&gt;2.&amp;nbsp;setSendVersion&lt;br&gt;3.&amp;nbsp;setReceiveVersion&lt;br&gt;4.&amp;nbsp;forceResumeReceive" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="690" y="2320" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="D0v67CeB8sk4uImpkKm--40" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="D0v67CeB8sk4uImpkKm--37" target="D0v67CeB8sk4uImpkKm--39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="577" y="2298" as="sourcePoint" />
+            <mxPoint x="685" y="2338" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
