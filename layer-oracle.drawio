@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-19T13:55:52.143Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="i89rBbyL3c5gNNCDkxuL" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-19T14:33:36.874Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="j3ceFKsfTa9ciq5rU9XT" version="21.6.2" type="github">
   <diagram name="第 1 页" id="OaAXD1NmUu3i7Wb7ZRrW">
     <mxGraphModel dx="1399" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -229,6 +229,21 @@
         </mxCell>
         <mxCell id="yfAw6c0mlqAvSyWuzK-c-23" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;RelayerV2&lt;br&gt;&lt;/div&gt;1.&amp;nbsp;event OracleNotified" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="520" y="3603" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yfAw6c0mlqAvSyWuzK-c-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.631;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525.24" y="3720.5" as="sourcePoint" />
+            <mxPoint x="704.76" y="2914.06" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="515.24" y="3721" />
+              <mxPoint x="515.24" y="2914" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfAw6c0mlqAvSyWuzK-c-31" value="listen&lt;br&gt;event of&lt;br&gt;&amp;nbsp;&quot;OracleNotified&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yfAw6c0mlqAvSyWuzK-c-30">
+          <mxGeometry x="0.0901" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="yfAw6c0mlqAvSyWuzK-c-27" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;ZkBridgeOracle&lt;br&gt;&lt;/div&gt;1.&amp;nbsp;event OracleNotified" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="520" y="3698" width="180" height="90" as="geometry" />
