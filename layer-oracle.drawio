@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-19T12:18:00.069Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="dvg_jSRBmbUA6RZdq0TV" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-19T13:13:47.514Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="YwjPvISKaaS7RC6gkSHN" version="21.6.2" type="github">
   <diagram name="第 1 页" id="OaAXD1NmUu3i7Wb7ZRrW">
-    <mxGraphModel dx="1539" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2798" dy="1475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -90,6 +90,14 @@
             <mxPoint x="186" y="2970" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="yfAw6c0mlqAvSyWuzK-c-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="D0v67CeB8sk4uImpkKm--26" target="yfAw6c0mlqAvSyWuzK-c-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfAw6c0mlqAvSyWuzK-c-11" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px;&quot;&gt;_getSendLibrary(uaConfig)&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px;&quot;&gt;.send{value: &lt;span style=&quot;color: #569cd6;&quot;&gt;msg&lt;/span&gt;.value}&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px;&quot;&gt;(&lt;span style=&quot;color: #569cd6;&quot;&gt;msg.sender&lt;/span&gt;, nonce, _dstChainId,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px;&quot;&gt;_destination, _payload,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px;&quot;&gt;_refundAddress, _zroPaymentAddress,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px;&quot;&gt;_adapterParams)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yfAw6c0mlqAvSyWuzK-c-10">
+          <mxGeometry x="0.0082" y="1" relative="1" as="geometry">
+            <mxPoint x="1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="D0v67CeB8sk4uImpkKm--37" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;ILayerZeroEndpoint&lt;/div&gt;&lt;/div&gt;1.&amp;nbsp;send&lt;span style=&quot;background-color: initial;&quot;&gt;()&lt;/span&gt;&lt;br&gt;2.&amp;nbsp;receivePayload&lt;br&gt;3.&amp;nbsp;getInboundNonce&lt;br&gt;4.&amp;nbsp;getOutboundNonce&lt;br&gt;5.&amp;nbsp;estimateFees&lt;br&gt;6.&amp;nbsp;getChainId&lt;br&gt;7.&amp;nbsp;retryPayload&lt;br&gt;8.&amp;nbsp;hasStoredPayload&lt;br&gt;9.&amp;nbsp;getSendLibraryAddress&lt;br&gt;10.&amp;nbsp;getReceiveLibraryAddress&lt;br&gt;11.&amp;nbsp;isSendingPayload&lt;br&gt;12.&amp;nbsp;isReceivingPayload&lt;br&gt;13.&amp;nbsp;getConfig&lt;br&gt;14.&amp;nbsp;getSendVersion&lt;br&gt;15.&amp;nbsp;getReceiveVersion" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="266" y="3020" width="180" height="260" as="geometry" />
         </mxCell>
@@ -168,10 +176,10 @@
           <mxGeometry x="300" y="2680" width="194" height="85" as="geometry" />
         </mxCell>
         <mxCell id="yfAw6c0mlqAvSyWuzK-c-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="2950" width="460" height="410" as="geometry" />
+          <mxGeometry x="41" y="3570" width="460" height="410" as="geometry" />
         </mxCell>
-        <mxCell id="yfAw6c0mlqAvSyWuzK-c-7" value="UltraLightNode" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="985" y="2950" width="110" height="40" as="geometry" />
+        <mxCell id="yfAw6c0mlqAvSyWuzK-c-7" value="UltraLightNodeV2" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="231" y="3580" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
