@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-20T10:50:25.099Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="tWHbm3Jdkki0DB4hvdXI" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-20T10:52:30.528Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ZjibNOvhag-JKXRS0Q-L" version="21.6.2" type="github">
   <diagram name="第 1 页" id="OaAXD1NmUu3i7Wb7ZRrW">
     <mxGraphModel dx="1788" dy="1248" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -497,12 +497,6 @@
         <mxCell id="yfAw6c0mlqAvSyWuzK-c-99" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFFF;" vertex="1" parent="1">
           <mxGeometry x="1625" y="3560" width="399" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="yfAw6c0mlqAvSyWuzK-c-100" value="assignJob" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="2091.3333129084995" y="3627" as="geometry" />
-        </mxCell>
-        <mxCell id="yfAw6c0mlqAvSyWuzK-c-101" value="assignJob" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="2088.449387785875" y="3713.986222859191" as="geometry" />
-        </mxCell>
         <mxCell id="yfAw6c0mlqAvSyWuzK-c-102" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1834" y="3580" width="180" height="190" as="geometry" />
         </mxCell>
@@ -529,9 +523,6 @@
             <mxPoint x="1824" y="3650" as="sourcePoint" />
             <mxPoint x="1874" y="3600" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="yfAw6c0mlqAvSyWuzK-c-110" value="updateFphash&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;or&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;updateMpthash" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="2089.66594136834" y="3748.8888059552773" as="geometry" />
         </mxCell>
         <mxCell id="yfAw6c0mlqAvSyWuzK-c-113" value="BlockUpdater&lt;br&gt;Contract" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1280" y="2530" width="60" height="30" as="geometry" />
