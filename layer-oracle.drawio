@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-20T09:39:18.682Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="sxbIGGXrVD1tyazrnhD6" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-20T09:42:34.336Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="-LaSqJCSi6fwVs1NxtLt" version="21.6.2" type="github">
   <diagram name="第 1 页" id="OaAXD1NmUu3i7Wb7ZRrW">
-    <mxGraphModel dx="3320" dy="2317" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1788" dy="1248" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -368,8 +368,11 @@
         <mxCell id="yfAw6c0mlqAvSyWuzK-c-64" value="&lt;div style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color:#4eade5;&quot;&gt;s&lt;/span&gt;.sendingCtx &amp;lt;- arg&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="950" y="2741" width="180" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="yfAw6c0mlqAvSyWuzK-c-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yfAw6c0mlqAvSyWuzK-c-68" target="yfAw6c0mlqAvSyWuzK-c-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="yfAw6c0mlqAvSyWuzK-c-68" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFFF;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="2509.5" width="200" height="390" as="geometry" />
+          <mxGeometry x="1216" y="2509.5" width="200" height="350.5" as="geometry" />
         </mxCell>
         <mxCell id="yfAw6c0mlqAvSyWuzK-c-69" value="&lt;div style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;importValidatorSet&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1241" y="2595" width="150" height="65" as="geometry" />
@@ -539,6 +542,12 @@
         </mxCell>
         <mxCell id="yfAw6c0mlqAvSyWuzK-c-120" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;ZkBridgeOracle&lt;br&gt;&lt;/div&gt;1.&amp;nbsp;event OracleNotified" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#99FFFF;" vertex="1" parent="1">
           <mxGeometry x="1230" y="3695" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yfAw6c0mlqAvSyWuzK-c-127" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFFF;arcSize=19;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="2841" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="yfAw6c0mlqAvSyWuzK-c-128" value="&lt;div style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;mptvalidator&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1447.5" y="2899.5" width="105" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
