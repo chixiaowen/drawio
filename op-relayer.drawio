@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-29T10:38:34.700Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="b86_PbbotXwJx_CuBS1c" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-29T10:39:25.901Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="POGPoSy0t6Nwk1OwzNAB" version="21.6.5" type="github">
   <diagram name="第 1 页" id="f3eELwjGRMlKZKbWPv26">
     <mxGraphModel dx="2646" dy="3292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -657,12 +657,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IhaADrxNW3tXN6KrPgqr-11" value="submitproof&lt;br&gt;1.&amp;nbsp;getMessageStatus&lt;br&gt;2.&amp;nbsp;proveMessage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2180" y="89" width="150" height="94" as="geometry" />
+          <mxGeometry x="2200" y="144" width="150" height="94" as="geometry" />
         </mxCell>
         <mxCell id="IhaADrxNW3tXN6KrPgqr-12" value="1.&amp;nbsp;checkRootProof" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1710" y="40" width="260" height="192" as="geometry" />
+          <mxGeometry x="1710" y="150" width="180" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="IhaADrxNW3tXN6KrPgqr-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IhaADrxNW3tXN6KrPgqr-12">
+        <mxCell id="IhaADrxNW3tXN6KrPgqr-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IhaADrxNW3tXN6KrPgqr-12" target="IhaADrxNW3tXN6KrPgqr-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1980" y="150" as="sourcePoint" />
             <mxPoint x="2180" y="136" as="targetPoint" />
