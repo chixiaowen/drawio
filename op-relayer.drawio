@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-30T13:54:21.806Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="jibgsoAc8yYHC9f5qtxK" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-30T13:56:21.431Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="8cEDeJovPTaK_mBLsgw1" version="21.6.5" type="github">
   <diagram name="第 1 页" id="f3eELwjGRMlKZKbWPv26">
     <mxGraphModel dx="2761" dy="3497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -344,17 +344,17 @@
         <mxCell id="pk-ojsBTlAtSfRIy_kHM-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pk-ojsBTlAtSfRIy_kHM-51" target="pk-ojsBTlAtSfRIy_kHM-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pk-ojsBTlAtSfRIy_kHM-49" value="transferETH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pk-ojsBTlAtSfRIy_kHM-48" vertex="1" connectable="0">
+        <mxCell id="pk-ojsBTlAtSfRIy_kHM-49" value="transferNFT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pk-ojsBTlAtSfRIy_kHM-48" vertex="1" connectable="0">
           <mxGeometry x="-0.4023" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pk-ojsBTlAtSfRIy_kHM-50" value="emit L2WithdrawETH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pk-ojsBTlAtSfRIy_kHM-48" vertex="1" connectable="0">
+        <mxCell id="pk-ojsBTlAtSfRIy_kHM-50" value="emit&amp;nbsp;&lt;a style=&quot;box-sizing: border-box; color: rgb(18, 22, 28); background-color: rgba(231, 234, 243, 0.4); font-size: 14px; text-align: left; cursor: pointer; font-family: SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace !important;&quot; data-target=&quot;#demo1&quot; data-toggle=&quot;collapse&quot; class=&quot;accordion-toggle text-monospace&quot;&gt;TransferNFT&lt;/a&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pk-ojsBTlAtSfRIy_kHM-48" vertex="1" connectable="0">
           <mxGeometry x="0.4023" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pk-ojsBTlAtSfRIy_kHM-51" value="OpL2BridgeHandle" style="ellipse;whiteSpace=wrap;html=1;fillColor=#99FF99;" parent="1" vertex="1">
+        <mxCell id="pk-ojsBTlAtSfRIy_kHM-51" value="NFTBridgeEntrypoint" style="ellipse;whiteSpace=wrap;html=1;fillColor=#99FF99;" parent="1" vertex="1">
           <mxGeometry x="204" y="-1376" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="pk-ojsBTlAtSfRIy_kHM-52" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="pk-ojsBTlAtSfRIy_kHM-51" edge="1">
